@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mcdelivery/widgets/ComprasCarrinho.dart';
 
 class ComprasPage extends StatefulWidget {
   @override
@@ -8,8 +9,9 @@ class ComprasPage extends StatefulWidget {
 class _ComprasPageState extends State<ComprasPage> {
   @override
   Widget build(BuildContext context) {
-    return Center(
-      child: Text('compras'),
+    return ListView(
+      scrollDirection: Axis.vertical,
+      children: <Widget>[ComprasCarrinho()],
     );
   }
 }
