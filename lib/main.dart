@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:mcdelivery/pages/homePage.dart';
+// import 'package:mcdelivery/pages/homePage.dart';
 import 'package:mcdelivery/screens/MainScreen.dart';
 
 void main() {
@@ -16,6 +16,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.orange,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
+      // * retornar ao original
       home: MainScreen(),
       // home: HomePage(title: 'MyFood - seu food delivery'),
     );
